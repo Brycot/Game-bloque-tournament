@@ -7,10 +7,10 @@ const MarketSkeleton = () => {
     <ul className="space-y-4">
       {skeletonItems.map((_, index) => (
         <li key={index} className="p-4 bg-gray-100 dark:bg-custom-dark-gray rounded">
-          <SkeletonLoader className="h-5 w-3/5 mb-2" /> {/* Title */}
-          <SkeletonLoader className="h-3 w-1/4 mb-3" /> {/* Type and Cost line placeholder */}
-          <SkeletonLoader className="h-3 w-4/5 mb-1" /> {/* Description line 1 */}
-          <SkeletonLoader className="h-3 w-3/5" />      {/* Description line 2 */}
+          <SkeletonLoader className="h-5 w-3/5 mb-2" />
+          <SkeletonLoader className="h-3 w-1/4 mb-3" />
+          <SkeletonLoader className="h-3 w-4/5 mb-1" />
+          <SkeletonLoader className="h-3 w-3/5" />
         </li>
       ))}
     </ul>
