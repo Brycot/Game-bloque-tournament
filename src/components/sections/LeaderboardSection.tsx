@@ -1,7 +1,7 @@
 import { useLeaderboardSort } from '../../hooks/useLeaderboardSort';
 import LeaderboardSkeleton from '../skeletons/LeaderboardSkeleton';
 import LeaderboardTable from '../LeaderboardTable';
-import { LeaderboardResponse, Player } from '../../dto/leaderboard.dto'; 
+import { Player } from '../../dto/leaderboard.dto'; 
 import { useLeaderboard } from '../../hooks/useLeaderboard';
 import ErrorMessage from '../common/ErrorMessage';
 
